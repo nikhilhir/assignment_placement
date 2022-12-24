@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-weight: 500;
+}
+.main{
+    width: 100%;
+    margin: auto;
+    border: 1px solid;
+    background-color: aqua;
+    padding: 10px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.fetch {
+    margin-left: 20px;
+    width: 30%;
+    height: 40px;
+    background: green;
+    border-radius: 10px;
+    color: white;
+  
+}
+.delete{
+    margin-left: 20px;
+    width: 30%;
+    height: 40px;
+    background: red;
+    border-radius: 10px;
+    color: white;
+  
+}
+.tablediv{
+    border-collapse: collapse;
+    border: 1px solid;
+    margin: auto;
+    margin: 5px;
+    margin-top: 20px;
+    padding: 20px;
+    width: 80%;
+}
+.thead .tr .th{
+    border: 1px solid red;
+    background-color: salmon;
+    color: white;
+    height: 40px;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+.td{
+    border: 1px solid;
+    margin: 3px;
+}
+.paginationdiv{
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+}
+.pagination_btn{
+    margin-left: 20px;
+    text-align: center;
+    width: 20%;
+    height: 40px;
+    border-radius: 10px;
+    background-color: aqua;
+}
+.span{
+    margin: 10px;
+}
